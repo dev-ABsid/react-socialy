@@ -1,0 +1,10 @@
+/* Global stylesheet */
+
+.animate-spin {
+  max-width: 60px;
+  display: block;
+  margin: 70px auto;
+}
+.owl-theme .owl-nav [class*="owl-"] {
+  color: #000 !important;
+}
