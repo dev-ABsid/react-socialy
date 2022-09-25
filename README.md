@@ -10,7 +10,7 @@
     <a href="https://github.com/dev-ABsid/react-socialy"><strong>Explore the code here »</strong></a>
     <br />
     <a href="https://react-socialy-fslk.vercel.app/">View Demo</a>
-    ·
+    <br />
     <a href="https://github.com/dev-ABsid/react-socialy/issues">Request Feature</a>
   </p>
 </div>
