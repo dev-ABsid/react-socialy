@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { getPost } from "../../actions/PostActions";
 import PostItem from "../post/PostItem";
-import { options } from "../../utils/config";
 // Icons
 import spinner from "../../assets/images/icons/spinner.gif";
 
@@ -25,7 +24,7 @@ const PostsSimple = () => {
 
   // change post on next prev click
   const changePostHandler = async (change) => {
-    if (change == "next") {
+    if (change === "next") {
       try {
         setCurrentPost(currentPost + 1);
         const postRes = await getPost(currentPost + 1);
@@ -34,7 +33,7 @@ const PostsSimple = () => {
       } catch (err) {
         console.log(err);
       }
-    } else if (change == "prev") {
+    } else if (change === "prev") {
       try {
         if (currentPost > 1) {
           setCurrentPost(currentPost - 1);

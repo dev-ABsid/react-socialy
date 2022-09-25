@@ -1,5 +1,5 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
-import { getAllPosts, getPost, getComments } from "../../actions/PostActions";
+import { getAllPosts, getPost } from "../../actions/PostActions";
 
 const initialState = [];
 

@@ -27,10 +27,11 @@ const Home = () => {
                   <div className="p-4 rounded-lg text-center font-semibold text-white bg-box">
                     <p className="text-md">Slider - Redux Demo</p>
                     <p className="text-small mb-8">
-                      Impleted redux toolkit to store all the posts. All the
-                      posts are load on the first load and owl carousel is used
-                      to display the posts. useCallback hook is used to memoized
-                      the calls.
+                      Redux is Implemented to store all the posts in global
+                      state (Just to show how it can be done with redux). All
+                      the posts are loaded on the first load and owl carousel is
+                      used to display the posts. useCallback hook is used to
+                      memoized the calls.
                     </p>
                     <Link
                       to="/posts"
@@ -43,8 +44,9 @@ const Home = () => {
                   <div className="p-4 rounded-lg text-center font-semibold text-white shadow-lg bg-box">
                     <p className="text-md">Pagination - No Redux Demo</p>
                     <p className="text-small mb-8">
-                      Posts are load on each button click. No redux store and
-                      carousel is used.
+                      Posts are loaded on each button click instead of loading
+                      all posts on first load. No redux store and carousel is
+                      used.
                     </p>
                     <Link
                       to="/posts-simple"
