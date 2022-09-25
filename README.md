@@ -2,6 +2,19 @@
 
 A simple react redux application to display posts.
 
+## Get started
+
+Clone the project to local directory.
+Run
+
+### `yarn intall`
+
+to start the app run
+
+### `yarn start`
+
+In the project directory, you can run:
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -44,7 +57,3 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
